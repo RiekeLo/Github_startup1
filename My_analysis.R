@@ -1,2 +1,4 @@
 #Open sience - set up github
-#"My analysis"
+# load packages
+library(tidyverse)
+library(cars)
