@@ -1,4 +1,29 @@
-.Rproj.user
-.Rhistory
-.RData
 .Ruserdata
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# RStudio files
+.Rproj.user/
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+.Rproj.user
+
+#data (excludes EVERYTHING(*) in the folder data)
+# (if there is such folder in the R-project on your computer)
+#data/*
+
+# you can make exceptions for specific files
+# This means that the following file IS uploaded to github
+# Despite being in the datafolder
+# .. but of course only of you commit it 
+!data/dragon_taxonomy.csv
+
+#figures & output (excludes all figure files)
+*.png
+*.pdf
+*.jpeg
