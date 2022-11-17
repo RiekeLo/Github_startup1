@@ -3,3 +3,7 @@
 library(tidyverse)
 library(cars)
 #Hej
+
+#do useful things
+#library(anypackage)
+#plot(function, data)
